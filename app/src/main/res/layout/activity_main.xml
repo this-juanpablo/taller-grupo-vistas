@@ -35,7 +35,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 1" />
+                android:text="Ejercicio 1"
+                android:textColor="@color/white" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnExercise2"
@@ -44,7 +45,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 2" />
+                android:text="Ejercicio 2"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
@@ -61,7 +63,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 3" />
+                android:text="Ejercicio 3"
+                android:textColor="@color/white" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnExercise4"
@@ -70,7 +73,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 4" />
+                android:text="Ejercicio 4"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
@@ -87,7 +91,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 5" />
+                android:text="Ejercicio 5"
+                android:textColor="@color/white" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnExercise6"
@@ -96,7 +101,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 6" />
+                android:text="Ejercicio 6"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 
@@ -113,7 +119,8 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/primary"
-                android:text="Ejercicio 7" />
+                android:text="Ejercicio 7"
+                android:textColor="@color/white" />
 
         </LinearLayout>
 

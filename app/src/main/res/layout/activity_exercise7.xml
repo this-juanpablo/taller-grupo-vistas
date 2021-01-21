@@ -3,9 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20dp"
-    android:background="@color/white"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".Exercise7">
 
     <LinearLayout
@@ -59,13 +58,13 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="How do you like your tea served?"
-            android:textSize="20dp" />
+            android:textSize="15dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="20dp">
+            android:padding="10dp">
 
             <CheckBox
                 android:layout_width="match_parent"
@@ -104,7 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:entries="@string/languajes" />
+            android:entries="@array/languajes" />
     </LinearLayout>
 
     <LinearLayout
@@ -112,7 +111,18 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@color/cardview_dark_background"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_ok_foreground" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_no_foreground" />
 
     </LinearLayout>
 
