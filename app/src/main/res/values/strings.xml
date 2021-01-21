@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GrupoVistas</string>
+
+    <string-array name="languajes">
+        <item>Python</item>
+        <item>PHP</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Ruby</item>
+    </string-array>
+</resources>
